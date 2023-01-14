@@ -10,6 +10,13 @@ class loginPage extends StatefulWidget {
 class _loginPageState extends State<loginPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      child: Column(
+        children: const [
+          Text('HIi'),
+          Text ('Hii'),
+        ],
+      ),
+    );
   }
 }
